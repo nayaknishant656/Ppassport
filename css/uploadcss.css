@@ -1,0 +1,21 @@
+.bg-img
+{
+    background-image: url(../img/1.jpg);
+}
+.container
+{
+    background-color: rgba(0, 0, 0, 0.5);
+        margin: auto;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
+@media (min-width: 1333px) {
+
+.bg-img
+{
+    display: flex;
+}
+}
